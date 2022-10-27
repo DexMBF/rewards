@@ -11,16 +11,16 @@ const addressSet = {
 }
 
 const walletSet = [
-    // {name: 'BNB', addr: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"},
+    {name: 'BNB', addr: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"},
     {name: 'BUSD', addr: "0xe9e7cea3dedca5984780bafc599bd69add087d56"},
     // {name: 'FEG', addr: "0xacfc95585d80ab62f67a14c566c1b7a49fe91167"},
     {name: 'Cake', addr: "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"},
     {name: 'BPET', addr: "0x842BFbA3603bD97F1ae49122F0b56C073d56031F"},
-    // {name: 'USDT', addr: "0x55d398326f99059fF775485246999027B3197955"}
+    {name: 'USDT', addr: "0x55d398326f99059fF775485246999027B3197955"}
 ]
 
 const swapSet = [
-    // {name: 'BNB', addr:"0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"},
+    {name: 'BNB', addr:"0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"},
     {name: 'BUSD', addr: "0xe9e7cea3dedca5984780bafc599bd69add087d56"},
     // {name: 'USDT', addr: "0x55d398326f99059ff775485246999027b3197955"},
     // {name: 'USDC', addr: "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"},
