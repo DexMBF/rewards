@@ -53,7 +53,7 @@ function RewardComponent(props) {
             else{
                 var discontract= getContractInstance(distributorABI, distributorAddress);
                 var data= await discontract.methods.shares(walletAddress).call();
-                var price= await getAmountOut(addressSet['POW'], addressSet['BUSD']);
+                var price= await getAmountOut(addressSet['BPET'], addressSet['BUSD']);
                 setPowPrice(price);
                 //POW balance
                 var walletHolding= parseInt(data.amount)/10**9;
@@ -174,7 +174,7 @@ function RewardComponent(props) {
                             </button> */}
                         <div className="col-sm-4 rewards-content">
                             <div className= "token-field">
-                                <span><img width= "30px" src={requireTokenImg(addressSet['POW'])}/>POW BALANCE</span>
+                                <span><img width= "30px" src={requireTokenImg(addressSet['BPET'])}/>BPET BALANCE</span>
                             </div>
                             <div className= "value-field">
                                 <span>{holding}</span>
