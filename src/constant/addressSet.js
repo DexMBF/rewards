@@ -7,26 +7,26 @@ const addressSet = {
     Dai: "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
     ETH: "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
     // PAX: "0xb7f8cd00c5a06c0537e2abff0b58033d02e5e094",
-    POW: "0x0196D4D37990aB2e1f7BC8607C7b4198A360c48f"
+    POW: "0x842BFbA3603bD97F1ae49122F0b56C073d56031F"
 }
 
 const walletSet = [
     {name: 'BUSD', addr: "0xe9e7cea3dedca5984780bafc599bd69add087d56"},
     {name: 'FEG', addr: "0xacfc95585d80ab62f67a14c566c1b7a49fe91167"},
     {name: 'Cake', addr: "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"},
-    {name: 'POW', addr: "0x0196D4D37990aB2e1f7BC8607C7b4198A360c48f"},
+    {name: 'POW', addr: "0x842BFbA3603bD97F1ae49122F0b56C073d56031F"},
     // {name: 'USDT', addr: "0x55d398326f99059fF775485246999027B3197955"}
 ]
 
 const swapSet = [
     {name: 'BNB', addr:"0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"},
     {name: 'BUSD', addr: "0xe9e7cea3dedca5984780bafc599bd69add087d56"},
-    {name: 'USDT', addr: "0x55d398326f99059ff775485246999027b3197955"},
-    {name: 'USDC', addr: "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"},
-    {name: 'Dai', addr: "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3"},
-    {name: 'ETH', addr: "0x2170ed0880ac9a755fd29b2688956bd959f933f8"},
+    // {name: 'USDT', addr: "0x55d398326f99059ff775485246999027b3197955"},
+    // {name: 'USDC', addr: "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"},
+    // {name: 'Dai', addr: "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3"},
+    // {name: 'ETH', addr: "0x2170ed0880ac9a755fd29b2688956bd959f933f8"},
     // {name: 'PAX', addr: "0xb7f8cd00c5a06c0537e2abff0b58033d02e5e094"},
-    {name: 'POW', addr: "0x0196D4D37990aB2e1f7BC8607C7b4198A360c48f"}
+    {name: 'POW', addr: "0x842BFbA3603bD97F1ae49122F0b56C073d56031F"}
 ]
 
 const pairaddressSet= {
@@ -43,7 +43,7 @@ const pairaddressSet= {
     Dai_BUSD: "0x66FDB2eCCfB58cF098eaa419e5EfDe841368e489",
     BUSD_Dai: "0x66FDB2eCCfB58cF098eaa419e5EfDe841368e489",
     BNB_POW: "0xc22bfA061F55D65A529C9277A68Ff8E43429f26f",
-    POW_BNB: "0xc22bfA061F55D65A529C9277A68Ff8E43429f26f",
+    POW_BNB: "0x80A25CD9Cc05FD2EC4F157F9Bbb1DAe940e598e2",
     ETH_USDC: "0xEa26B78255Df2bBC31C1eBf60010D78670185bD0",
     USDC_ETH: "0xEa26B78255Df2bBC31C1eBf60010D78670185bD0",
     ETH_BNB: "0x74E4716E431f45807DCF19f284c7aA99F18a4fbc",
